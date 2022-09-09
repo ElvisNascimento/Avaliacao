@@ -1,4 +1,174 @@
 *{
-    border: 1px solid black;
+    font-family: 'Sarabun', sans-serif;
+    /* border: 1px solid black; */
+}
+header{
+    background-color: brown;
+    width: auto;
+    height: 580px;
+}
+/* --------------------------sections------------------------------ */
+.espaco_vazio{
+    width: 100%;
+    height: 2%;
+}
+.secao_um{
+    display: flex;
+    justify-content: center;
+    height: 8%;
+    width: 100%px;
+}
+.secao_dois{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 30%;
+    width: 100%;
+}
+.secao_tres{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 60%;
+    width: 100%;
+}
+/*------------------------------ LOGO---------------------------- */
+.cab_logo{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+.cab_logo div{
+    width: 20%;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    width: 100%;
+}
+.logo div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.img_logo{
+    margin-top: 1%;
+    width: 83%;
+    height: 58%;
 }
 
+/* -----------------------------Botoes---------------------------------- */
+.btns_login{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.btns_login div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    padding-left: 18px;
+}
+
+.sign_in{
+    text-align: right;
+    background: none;
+    border: none;
+    color: white;
+    width: 100%;
+    font-size: 17px;
+    padding-left: 2px;
+}
+.sign_up{
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    color: #222;
+    width: 77%;
+    height: 80%;
+    font-size: 17px;
+    margin-top: 2px;
+    margin-left: 1px;
+    padding-bottom: 5px;
+}
+/* -----------------------------sub-titulo------------------------- */
+.sub_titulo{
+    padding-top: 14px;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+/* -----------------------------botao barra de pesquisa------------ */
+.btn_pesquisa{
+    margin-top: 20px;
+    width: 30%;
+    height: 68px;
+}
+.conteiner_btn{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    margin-top: 3px;
+    height: 46px;
+}
+.img_maps{
+    width: 40px;
+}
+.img_maps img{
+    padding-top: 14px;
+    margin-left: 12px;
+    width: 45%;
+}
+.barra_pesquisa{
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    height: 100%;
+}
+.barra_pesquisa input{
+    border: none;
+    padding-left: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 90%;
+    height: 79%;
+    font-size: 14px;
+    
+}
+.conteiner_btn{
+    width: 100%;
+}
+.conteiner_btn button{
+    background-color: red;
+    border: none;
+    margin-top: 3px;
+    margin-right: 5px;
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+}
+.seta_envio{
+    background-color: blue;
+    background: none;
+    color: white;
+}
+.seta_envio img{
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+}
+.link_saved_address{
+    display: flex;
+    justify-content: center;
+
+}
+.link_saved_address a{
+    color: white;
+}
