@@ -1,8 +1,5 @@
-*{
-    font-family: 'Sarabun', sans-serif;
-    /* border: 1px solid black; */
-}
 header{
+    font-family: 'Sarabun', sans-serif;
     background-color: brown;
     width: auto;
     height: 580px;

@@ -1,0 +1,55 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 20px;
+    border: 1px solid black;
+    background-color: #1c1c1c;
+    font-family: 'Sarabun', sans-serif;
+    color: #c4c4c4c4;
+}
+.container_rodape{
+    height: 800px;
+    width: 100%;
+}
+.secao_rodape_um{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    
+}
+.rodape_div_um , .rodape_div_dois{
+    box-sizing: border-box;
+    padding: 20px 40px 0px 0px;
+    width: 44%;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+}
+.rodape_div_um h3, .rodape_div_dois h3{
+    line-height: 34px;
+}
+.colunas1, .colunas2{
+    /* border: 1px solid #555; */
+    display: flex;
+    justify-content: left;
+    height: 240px;
+    width: 100%;
+}
+.coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100%;
+}
+.coluna_rp_1 a, .coluna_rp_2 a, .coluna_rp_3 a,.coluna_rp_4 a, .coluna_rp_5 a{
+    line-height: 28px;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.coluna_rp_1 a:hover, .coluna_rp_2 a:hover, .coluna_rp_3 a:hover, .coluna_rp_4 a:hover, .coluna_rp_5 a:hover{
+    line-height: 28px;
+    text-decoration: underline;
+    color: #fff;
+}
