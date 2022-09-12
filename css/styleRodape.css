@@ -9,14 +9,9 @@ footer {
     font-family: 'Sarabun', sans-serif;
     color: #c4c4c4c4;
 }
-<<<<<<< HEAD
 .container_rodape{
     display: flex;
     flex-wrap: wrap;
-=======
-
-.container_rodape {
->>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
     height: 800px;
     width: 100%;
 }
@@ -28,11 +23,7 @@ footer {
     border: 1px solid red;
     width: 100%;
     height: 40%;
-<<<<<<< HEAD
     
-=======
-
->>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
 }
 
 .secao_rodape_dois {
@@ -65,27 +56,15 @@ footer {
 .rodape_div_um h3, .rodape_div_dois h3 {
     line-height: 34px;
 }
-<<<<<<< HEAD
 .colunas1, .colunas2{
     border: 1px solid #555;
-=======
-
-.colunas1, .colunas2 {
-    /* border: 1px solid #555; */
->>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
     display: flex;
     justify-content: left;
     height: 240px;
     width: 100%;
 }
-<<<<<<< HEAD
 .coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5{
     border: 1px solid red;
-=======
-
-.coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5 {
-    /* border: 1px solid red; */
->>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
     width: 30%;
     height: 100%;
 }
@@ -101,21 +80,3 @@ footer {
     text-decoration: underline;
     color: #fff;
 }
-
-<<<<<<< HEAD
-.secao_rodape_dois{
-    border: 1px solid red;
-    width: 50%;
-    height: 100px;
-}
-.secao_rodape_tres{
-    border: 1px solid red;
-    width: 50%;
-    height: 100px;
-}
-=======
-.coluna_rp_6 a {
-    font-family: 'Sarabun', sans-serif;
-    color: #c4c4c4;
-}
->>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
