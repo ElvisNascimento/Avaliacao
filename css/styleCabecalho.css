@@ -1,7 +1,8 @@
 header{
     font-family: 'Sarabun', sans-serif;
     background: url(/img/background.jpg);
-    width: auto;
+    background-size: cover;
+    width: 100%;
     height: 580px;
 }
 

@@ -10,14 +10,17 @@ footer{
     color: #c4c4c4c4;
 }
 .container_rodape{
+    display: flex;
+    flex-wrap: wrap;
     height: 800px;
     width: 100%;
 }
 .secao_rodape_um{
     display: flex;
     justify-content: center;
+    border: 1px solid red;
     width: 100%;
-    height: 40px;
+    height: 40%;
     
 }
 .rodape_div_um , .rodape_div_dois{
@@ -32,14 +35,14 @@ footer{
     line-height: 34px;
 }
 .colunas1, .colunas2{
-    /* border: 1px solid #555; */
+    border: 1px solid #555;
     display: flex;
     justify-content: left;
     height: 240px;
     width: 100%;
 }
 .coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 30%;
     height: 100%;
 }
@@ -52,4 +55,15 @@ footer{
     line-height: 28px;
     text-decoration: underline;
     color: #fff;
+}
+
+.secao_rodape_dois{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+}
+.secao_rodape_tres{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
 }
