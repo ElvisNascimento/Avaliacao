@@ -1,4 +1,4 @@
-footer{
+footer {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -9,21 +9,51 @@ footer{
     font-family: 'Sarabun', sans-serif;
     color: #c4c4c4c4;
 }
+<<<<<<< HEAD
 .container_rodape{
     display: flex;
     flex-wrap: wrap;
+=======
+
+.container_rodape {
+>>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
     height: 800px;
     width: 100%;
 }
-.secao_rodape_um{
+
+.secao_rodape_um {
+    border: 1px solid #555;
     display: flex;
     justify-content: center;
     border: 1px solid red;
     width: 100%;
     height: 40%;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
 }
-.rodape_div_um , .rodape_div_dois{
+
+.secao_rodape_dois {
+    border: 1px solid #555;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+
+}
+
+.secao_rodape_tres {
+    border: 1px solid #555;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+
+}
+
+.rodape_div_um, .rodape_div_dois {
     box-sizing: border-box;
     padding: 20px 40px 0px 0px;
     width: 44%;
@@ -31,32 +61,48 @@ footer{
     font-size: 14px;
     color: white;
 }
-.rodape_div_um h3, .rodape_div_dois h3{
+
+.rodape_div_um h3, .rodape_div_dois h3 {
     line-height: 34px;
 }
+<<<<<<< HEAD
 .colunas1, .colunas2{
     border: 1px solid #555;
+=======
+
+.colunas1, .colunas2 {
+    /* border: 1px solid #555; */
+>>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
     display: flex;
     justify-content: left;
     height: 240px;
     width: 100%;
 }
+<<<<<<< HEAD
 .coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5{
     border: 1px solid red;
+=======
+
+.coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5 {
+    /* border: 1px solid red; */
+>>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
     width: 30%;
     height: 100%;
 }
-.coluna_rp_1 a, .coluna_rp_2 a, .coluna_rp_3 a,.coluna_rp_4 a, .coluna_rp_5 a{
+
+.coluna_rp_1 a, .coluna_rp_2 a, .coluna_rp_3 a, .coluna_rp_4 a, .coluna_rp_5 a {
     line-height: 28px;
     text-decoration: none;
     color: #c4c4c4;
 }
-.coluna_rp_1 a:hover, .coluna_rp_2 a:hover, .coluna_rp_3 a:hover, .coluna_rp_4 a:hover, .coluna_rp_5 a:hover{
+
+.coluna_rp_1 a:hover, .coluna_rp_2 a:hover, .coluna_rp_3 a:hover, .coluna_rp_4 a:hover, .coluna_rp_5 a:hover {
     line-height: 28px;
     text-decoration: underline;
     color: #fff;
 }
 
+<<<<<<< HEAD
 .secao_rodape_dois{
     border: 1px solid red;
     width: 50%;
@@ -67,3 +113,9 @@ footer{
     width: 50%;
     height: 100px;
 }
+=======
+.coluna_rp_6 a {
+    font-family: 'Sarabun', sans-serif;
+    color: #c4c4c4;
+}
+>>>>>>> feff6ca0f027c56b6a90bbea5752f87a90502dd8
