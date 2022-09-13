@@ -17,40 +17,41 @@ footer {
 }
 
 .secao_rodape_um {
-    border: 1px solid #555;
+    /*border: 1px solid #555;*/
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 100%;
     height: 40%;
     
 }
 
 .secao_rodape_dois {
-    padding-left: 18%;
-    border: 1px solid #555;
+    margin-top: -35%;
+    padding-left: 6%;
+    /*border: 1px solid #555;*/
     display: flex;
-    flex: space-between;
-    justify-content: center;
     width: 100%;
-    height: 50%;
+    
 
 }
 .coluna_rp_7, .coluna_rp_8{
-    padding-left: 18%;
+    padding-left: 5%;
 }
 
 .secao_rodape_tres {
-    border: 1px solid #555;
+    font-size: 12px;
+    margin-top: -2%;
+    padding-left: 10%;
+    /*border: 1px solid #555;*/
     display: flex;
-    justify-content: center;
     width: 100%;
     height: 10%;
 
 }
 
 .rodape_div_um, .rodape_div_dois {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     padding: 20px 40px 0px 0px;
     width: 44%;
     height: 40px;
@@ -62,26 +63,36 @@ footer {
     line-height: 34px;
 }
 .colunas1, .colunas2{
-    border: 1px solid #555;
+    /*border: 1px solid #555;*/
     display: flex;
     justify-content: left;
     height: 240px;
     width: 100%;
 }
-.coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5 .coluna_rp_6 .coluna_rp_7 .coluna_rp_8{
-    border: 1px solid red;
+.coluna_rp_1, .coluna_rp_2, .coluna_rp_3, .coluna_rp_4, .coluna_rp_5 .coluna_rp_6 .coluna_rp_7 .coluna_rp_8 .linha_final{
+    /*border: 1px solid red;*/
     width: 30%;
     height: 100%;
 }
 
-.coluna_rp_1 a, .coluna_rp_2 a, .coluna_rp_3 a, .coluna_rp_4 a, .coluna_rp_5 a, .coluna_rp_6 a, .coluna_rp_7 a, .coluna_rp_8 a{
+.coluna_rp_1 a, .coluna_rp_2 a, .coluna_rp_3 a, .coluna_rp_4 a, .coluna_rp_5 a, .coluna_rp_6 a, .coluna_rp_7 a, .coluna_rp_8 a, .linha_final a {
     line-height: 28px;
     text-decoration: none;
     color: #c4c4c4;
 }
 
-.coluna_rp_1 a:hover, .coluna_rp_2 a:hover, .coluna_rp_3 a:hover, .coluna_rp_4 a:hover, .coluna_rp_5 a:hover, .coluna_rp_6 a:hover, .coluna_rp_7 a:hover, .coluna_rp_8 a:hover {
+.coluna_rp_1 a:hover, .coluna_rp_2 a:hover, .coluna_rp_3 a:hover, .coluna_rp_4 a:hover, .coluna_rp_5 a:hover, .coluna_rp_6 a:hover, .coluna_rp_7 a:hover, .coluna_rp_8 a:hover, .linha_final a:hover{
     line-height: 28px;
     text-decoration: underline;
     color: #fff;
+} 
+
+.botoes_footer >button{
+    background-color: #555;
+    color: #c4c4c4;
+    margin-left: 200%;
+    align-items: flex-end;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
 }
