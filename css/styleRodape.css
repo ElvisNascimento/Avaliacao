@@ -28,7 +28,7 @@ footer {
 
 .secao_rodape_dois {
     margin-top: -35%;
-    padding-left: 6%;
+    padding-left: 3%;
     /*border: 1px solid #555;*/
     display: flex;
     width: 100%;
@@ -90,7 +90,7 @@ footer {
 .botoes_footer >button{
     background-color: #555;
     color: #c4c4c4;
-    margin-left: 200%;
+    margin-left: 210%;
     align-items: flex-end;
     border-radius: 10px;
     width: 150px;
