@@ -92,7 +92,7 @@ footer {
     /* border: 1px solid red; */
     border: none;
     background:none;
-    margin-left: 50%;
+    margin-left: 105%;
     align-items: flex-end;
     height: 50px;
 }
@@ -103,5 +103,5 @@ footer {
     /* color: #c4c4c4; */
     align-items: flex-end;
     border-radius: 6px;
-    width: 100px;
+    width: 150px;
 }
